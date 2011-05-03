@@ -8,3 +8,10 @@ puts "2. Tic-Tac-Toe"
 puts "3. The Game"
 puts "4. Scrabble"
 puts "5. Portal 2"
+
+game = gets.chomp
+if game == "1" then
+puts "BOOM"
+else
+puts "No."
+end
